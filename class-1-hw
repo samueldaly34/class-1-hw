@@ -1,0 +1,29 @@
+## made in Jupyter notebook
+
+def subtraction():
+    num1 = float(input('Enter first number: '))
+    num2 = float(input('Enter second number: '))
+    result = num1 - num2
+    print('The solution to ',num1,' minus ',num2,' is ',result)
+    return result
+    
+    def addition():
+    num1 = float(input('Enter first number: '))
+    num2 = float(input('Enter second number: '))
+    result = num1 + num2
+    print('The solution to ',num1,' plus ',num2,' is ',result)
+    return result
+    
+    def multiplication():
+    num1 = float(input('Enter first number: '))
+    num2 = float(input('Enter second number: '))
+    result = num1 * num2
+    print(f'The solution to ',num1,' multiplied by ',num2,' is ',result)
+    return result
+    
+    def divison():
+    num1 = float(input('Enter first number: '))
+    num2 = float(input('Enter second number: '))
+    result = num1 / num2
+    print('The solution to ',num1,' divided by ',num2,' is ',result)
+    return result
